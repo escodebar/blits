@@ -6,8 +6,10 @@ weight = 30
 +++
 
 **Vergés Wheels**  
-Einzelunternehmen, Inhaber: Pablo Vergés  
-Adresse: **Landstrasse 1**  
+Einzelunternehmen
+
+Pablo Vergés  
+Landstrasse 1  
 CH-5415 Rieden
 
-E-Mail: **wheels@blits.ch**
+**wheels@blits.ch**
