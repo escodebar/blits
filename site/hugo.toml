@@ -1,3 +1,4 @@
 baseURL = 'https://blits.ch/'
 languageCode = 'de-ch'
 title = 'blits wheels - Precision Handbuilt Wheelsets by Pablo Vergés'
+theme = 'blits'
