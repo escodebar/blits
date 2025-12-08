@@ -4,16 +4,14 @@ draft = false
 title = 'blits'
 +++
 
-# blits wheels
+# Blits
 
-### Precision Handbuilt Wheelsets by Pablo Vergés
+Willkommen bei **Blits** – einer kleinen, hochwertigen Laufradbau-Boutique.
 
-Willkommen bei **blits wheels** – einer kleinen, hochwertigen Laufradbau-Boutique.
-
-blits wheels steht für Laufräder, die mit Zeit, Ruhe und voller Aufmerksamkeit entstehen.  
+Blits steht für Laufräder, die mit Zeit, Ruhe und voller Aufmerksamkeit entstehen.  
 Ich fertige eine sehr limitierte Anzahl von Laufradsätze pro Jahr – jedes Rad ein eigenständiges Projekt, jedes Detail bewusst gewählt und dokumentiert.
 
-## Was blits wheels besonders macht
+## Was Blits besonders macht
 
 -   **Extrem limitierte Produktion**  
     Nur wenige Laufradsätze pro Jahr – absolute Fokussierung auf jedes einzelne Projekt.

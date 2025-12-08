@@ -6,9 +6,9 @@ weight = 20
 +++
 
 Bei Fragen zu Komponentenwahl, individuellen Laufradprojekten oder Terminabsprachen erreichst du mich direkt:
-**wheels@blits.ch**
+**{{% param "contact.email" %}}**
 
 Adresse für Terminvereinbarungen und Post:  
-Pablo Vergés  
-Landstrasse 1  
-CH-5415 Rieden
+{{% param "contact.owner" %}}  
+{{% param "contact.street" %}}  
+{{% param "contact.zip" %}} {{% param "contact.city" %}}

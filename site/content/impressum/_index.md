@@ -5,11 +5,11 @@ title = 'Impressum'
 weight = 30
 +++
 
-**Vergés Wheels**  
-Einzelunternehmen
+**{{% param "company.name" %}}**  
+{{% param "company.legal-form" %}}
 
-Pablo Vergés  
-Landstrasse 1  
-CH-5415 Rieden
+{{% param "contact.owner" %}}  
+{{% param "contact.street" %}}  
+{{% param "contact.zip" %}} {{% param "contact.city" %}}
 
-**wheels@blits.ch**
+**{{% param "contact.email" %}}**

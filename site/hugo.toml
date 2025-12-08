@@ -1,5 +1,17 @@
 baseURL = 'https://blits.ch/'
 languageCode = 'de-ch'
-title = 'Precision Handbuilt Wheelsets'
+title = 'Blits'
 theme = 'blits'
 sectionPagesMenu = 'main'
+
+[params]
+  tagline = 'Precision Handbuilt Wheelsets'
+  [params.company]
+    name = 'Vergés Wheels'
+    legal-form = 'Einzelunternehmen'
+  [params.contact]
+    email = 'wheels@blits.ch'
+    owner = 'Pablo Vergés'
+    street = 'Landstrasse 1'
+    zip = 'CH-5415'
+    city = 'Rieden'
