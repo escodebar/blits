@@ -13,10 +13,11 @@
         "x86_64-linux"
       ];
       perSystem = {pkgs, ...}: {
-        devShells = {
-          default = pkgs.mkShell {
-            packages = with pkgs; [
-              hugo
+        devShells = rec {
+          default = hugo;
+          hugo = pkgs.mkShell {
+            packages = [
+              pkgs.hugo
             ];
           };
         };
