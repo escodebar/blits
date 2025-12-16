@@ -1,0 +1,5 @@
+%syntax-version=1.0.0
+%project=blits
+%uri=https://blits.ch/
+
+wheel-schema 2025-12-16T12:15:42Z Pablo Vergés <wheels@blits.ch> # Add internal schema for wheel objects

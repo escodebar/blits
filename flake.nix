@@ -14,6 +14,11 @@
       ];
       perSystem = {pkgs, ...}: {
         devShells = rec {
+          database = pkgs.mkShell {
+            packages = [
+              pkgs.sqitchPg
+            ];
+          };
           default = hugo;
           hugo = pkgs.mkShell {
             packages = [
