@@ -15,6 +15,10 @@
       perSystem = {pkgs, ...}: {
         devShells = rec {
           database = let
+            python = pkgs.python3.withPackages (ps: [
+              ps.pytest
+              ps.requests
+            ]);
             start-db = pkgs.writeShellScriptBin "start-db" (builtins.readFile ./database/bin/start-db.sh);
           in
             pkgs.mkShell rec {
@@ -23,6 +27,7 @@
                 pkgs.postgresql
                 pkgs.postgrest
                 pkgs.sqitchPg
+                python
                 start-db
               ];
               DB_CONTAINER = "blits-dev-db";

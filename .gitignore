@@ -1,4 +1,6 @@
 .direnv
 .hugo_build.lock
 .secrets
+__pycache__
 public
+
