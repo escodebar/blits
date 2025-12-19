@@ -17,10 +17,11 @@
           database = let
             start-db = pkgs.writeShellScriptBin "start-db" (builtins.readFile ./database/bin/start-db.sh);
           in
-            pkgs.mkShell {
+            pkgs.mkShell rec {
               packages = [
                 pkgs.docker
                 pkgs.postgresql
+                pkgs.postgrest
                 pkgs.sqitchPg
                 start-db
               ];
@@ -29,6 +30,7 @@
               DB_PASSWORD = "password";
               DB_PORT = "5432";
               DB_USER = "development";
+              PGRST_DB_URI = "postgres://${DB_USER}:${DB_PASSWORD}@localhost:${DB_PORT}/${DB_NAME}";
             };
           default = hugo;
           hugo = pkgs.mkShell {
